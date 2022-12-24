@@ -1,0 +1,67 @@
+.sign-in-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.sign-in-container h1{
+    font-size: 2.3rem;
+    color: #000;
+    text-align: center;
+    position: relative;
+    font-family: var(--lora);
+}
+.sign-in-container h1::after{
+    content: " ";
+    display: block;
+    position: absolute;
+    background-color: #ffb200;
+    bottom: -5px;
+    left: 35%;
+    width: 30%;
+    height: 4px;
+    border-radius: 10px;
+}
+.sign-in-form{
+    background: #000;
+    padding: 1.4rem;
+    border-radius: 20px;
+    background-color: #ffcb42;
+}
+.sign-in-input{
+    margin: 1.1rem 0;
+}
+.sign-in-input input{
+    border: 3px solid gray;
+    border-radius: 10px;
+    padding: 0.7rem;
+    transition: all 300ms ease-in-out;
+}
+.sign-in-input input:focus{
+    border: 3px solid #fff;
+    outline: none;
+}
+.sign-in-button{
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #ffcb42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    background-color: #ffcb42;
+}
+
+.Return{
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    text-decoration: underline;
+    color: #000;
+    font-size: 1.1rem;
+    font-family: var(--lora);
+}

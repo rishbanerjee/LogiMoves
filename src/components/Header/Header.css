@@ -1,0 +1,77 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+
+.heading{
+    width: 60%;
+    text-align: center;
+    font-family: var(--lora);
+    font-weight: 00;
+    font-size: 3.3rem;
+    margin: -2rem;
+}
+
+.subtitle{
+    width: 50%;
+    text-align: center;
+    font-family: var(--source);
+    font-size: 1.1rem;
+}
+.btn{
+    margin: -1.5rem;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-family: var(--source);
+    font-size: 1.078rem;
+    background: #ffcb42;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.asterisk{
+    position: absolute;
+    top: 56%;
+    left: 10%;
+}
+.blob{
+    position: absolute;
+    top: 36%;
+    left: 90%;
+    transform: rotate(28deg);
+}
+.truck{
+    position: absolute;
+    top: 76%;
+    left: 90%;
+    transform: rotate(210deg);
+}
+.gateofindia{
+    position: absolute;
+    top: 16%;
+    left: 70%;
+}
+.taj{
+    position: absolute;
+    top: 18%;
+    left: 20%;
+}
+.arc{
+    position: absolute;
+    top: 88%;
+    left: 45%;
+}
+.india{
+    position: absolute;
+    top: 88%;
+    left: 45%;
+}

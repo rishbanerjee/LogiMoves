@@ -1,0 +1,27 @@
+.sidebar{
+    position: sticky;
+    width: 16%;
+    height: 80vh;
+    background-color: #ffb200;
+    border-radius: 20px;
+    padding: 1rem;
+
+    font-family: var(--source);
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.sidebar::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+.sidebar::-webkit-scrollbar-thumb{
+    background: #ffcb42;
+    border-radius: 10px;
+}
+.sidebar::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+.checkbox {
+    display: flex;
+}

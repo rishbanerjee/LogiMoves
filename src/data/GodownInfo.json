@@ -1,0 +1,21 @@
+{ "GodownCategories" : [
+    {
+        "id": 1,
+        "safety": "FireExtinguisher",
+        "image": "../image/warehouse1.jpeg",
+        "location": "Delhi"
+    },
+    {
+        "id": 2,
+        "safety": "SprinklerSystem",
+        "image": "../image/warehouse2.jpeg",
+        "location": "Kolkata"
+    },
+    {
+        "id": 3,
+        "safety": "FireHydrant",
+        "image": "../image/warehouse3.jpeg",
+        "location": "Mumbai"
+    }
+]
+}

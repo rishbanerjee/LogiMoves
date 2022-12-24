@@ -1,0 +1,5 @@
+export {default as Asterisk} from './svg/Asterisk.tsx'
+export {default as Blob} from './svg/Blob.tsx'
+export {default as Truck} from './svg/Truck.tsx'
+export {default as GateOfIndia} from './svg/GateOfIndia.tsx'
+export {default as Taj} from './svg/Taj.tsx'
