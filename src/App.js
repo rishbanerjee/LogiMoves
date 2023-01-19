@@ -1,17 +1,17 @@
 import './App.css';
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter,Routes, Route } from "react-router-dom";
 import { GodownList, Register, HomePage, LoginPage} from './Pages'
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
      <Routes>
-      <Route path='/' element={<HomePage />} exact />
-      <Route path='/Register' element={<Register />} />
-      <Route path='/GodownList' element={<GodownList />} />
-      <Route path='/Login' element={<LoginPage />} />
+      <Route path='/' element={<HomePage />} />
+      <Route path='/register' element={<Register />} />
+      <Route path='/godown_list' element={<GodownList />} />
+      <Route path='/login' element={<LoginPage />} />
      </Routes>
-    </div>
+    </BrowserRouter>
   );
 }
 

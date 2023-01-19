@@ -1,13 +1,13 @@
 import React from 'react'
-import { Navbar, Footer, Sidebar, GodownListTab } from '../../components'
+import { Navbar, Footer, Sidebar, GodownListTab, GodownHeader } from '../../components'
 import './GodownList.css'
 
 const GodownList = () => {
   return (
     <div>
      <Navbar />
+     <GodownHeader />
      <div className='flex'>
-      <Sidebar />
       <GodownListTab />
      </div>
      <Footer />

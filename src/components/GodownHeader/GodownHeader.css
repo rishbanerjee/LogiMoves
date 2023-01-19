@@ -1,0 +1,33 @@
+.GodownHeader{
+    background-image: url('../../assets/containerwarehouse.jpg') ;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1.5rem;
+    border-radius: 25px;
+}
+.GodownHeader_content{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.GodownHeader_heading{
+    font-size: 3.2rem;
+    font-family: var(--source);
+    text-transform: capitalize;
+    text-align: center;
+    color: #d9d9d9;
+}
+.GodownHeader_sub{
+    font-size: 1.4rem;
+    font-family: var(--source);
+    width: 60%;
+    color: #fff;
+    margin-top: -2rem;
+    text-align: center;
+
+}

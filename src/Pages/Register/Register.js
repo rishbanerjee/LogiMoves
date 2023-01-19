@@ -1,20 +1,22 @@
 import React, {useState} from 'react'
 import './Register.css'
-import { Link } from 'react-router-dom'
-import {ExporterForm, GodownOwnerForm} from '../../components'
+import {default as Exporter} from '../../assets/exporter.jpg'
+import {default as Owner} from '../../assets/owner.jpg'
+import {ExporterForm, GodownOwnerForm, Navbar} from '../../components'
 
 const Register = () => {
-  const [toggle, setToggle] = useState(true)
-  const reverseToggle = () => {
-    setToggle(toggle => !toggle)
-  }
+  
   return (
     <React.Fragment>
-    <Link to='/' className="linkHome">Home Page</Link>
-    <div className='form'>
-      <button className='toggle' onClick={reverseToggle} >{toggle ? "Are you a Exporter ? Click Here": "Are you a Godown Owner ? Click Here"}</button>
-      <div>{toggle ? <GodownOwnerForm /> : <ExporterForm />}</div>
-    </div>
+     <Navbar />
+     <div className='register'>
+      <div className='exporter'>
+       <button className='register_btn'>Register As Exporter</button>
+      </div>
+      <div className='warehouse_owner'>
+      <button className='register_btn'>Register As Warehouse Owner</button>
+      </div>
+     </div>
     </React.Fragment>
   )
 }

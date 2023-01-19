@@ -10,4 +10,7 @@ body {
   --source: 'Source Sans Pro', sans-serif;
   --white: '#fff';
   --orange: '#ffb200';
+  --dark-brown: '#3E2723';
+  --medium-brown: '#8D6E63';
+  --light-gray: '#d9d9d9';
 }

@@ -1,21 +1,47 @@
-.form{
+.register{
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.register_btn{
+    background-color: #3e2723;
+    height: 60px;
+    width: 50%;
+    color: #fff;
+    font-family: var(--source);
+    font-size: 1.2rem;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.2rem;
+}
+.exporter{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 70vh;
+    width: 50%;
+    height: 70vh;
+    margin: 0.7rem;
+    border-radius: 25px;
+    background-image: url('../../assets/exporter.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+.warehouse_owner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 70vh;
+    margin: 0.7rem;
+    border-radius: 25px;
+    background-image: url('../../assets/owner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+
 }
 
-.toggle{
-    font-size: 1.1rem;
-    font-family: var(--lora);
-    width: 40%;
-}
-
-.linkHome{
-    text-decoration: underline;
-    color: #000;
-    position: fixed;
-    top: 2%;
-    left: 2%;
-}

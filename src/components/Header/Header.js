@@ -1,20 +1,20 @@
 import React from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
-import {Asterisk, Blob, Truck, GateOfIndia, Taj} from '../../assets'
+import { default as truck } from '../../assets/truck.png'
 
 const Header = () => {
   return (
     <React.Fragment>
-    <Asterisk className="asterisk" fill={"#ffcb42"} width={40} height={40} />
-    <Blob className="blob" fill={"#ffcb42"} width={40} height={40}  />
-    <Truck className="truck" fill={"#ffcb42"} width={50} height={50}  />
-    <GateOfIndia className="gateofindia" fill={"#ffcb42"} width={50} height={50}  />
-    <Taj className="taj" fill={"#ffcb42"} width={50} height={50}  />
     <div className='header'>
-     <h1 className='heading'>We make your logistic delivery and storage hassle-free</h1>
-     <p className='subtitle'>Be worry free about your logistics, choose warehouse according to your product features and get it delivered with much less delay.</p>
+    <p className="header_subline">Our platform allows exporter to book warehouses according to their needs.</p>
+     <div className='header_image'>
+     </div>
+     <div className='header_content'>
+     <h1 className='heading'>Simplifying Logistics and Streamlining Warehouse Booking</h1>
+     <p className='subtitle'>Say goodbye to the hassle of coordinating multiple logistics providers and hello to a streamlined, stress-free exporting experience.</p>
      <Link to='/Register' className='link'><button className='btn'>Register Yourself</button></Link>
+     </div>
     </div>
     </React.Fragment>
   )
